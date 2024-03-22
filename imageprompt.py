@@ -297,7 +297,7 @@ footer_css = """
 
 # HTML for the footer - replace your credit information here
 footer_html = f"""
-<div class="footer custom-footer">
+<div class="footer">
     <p class="footer-credit" style="font-size: 12px; font-style: italic; color: gray; margin-bottom: 0px; opacity: 0.7; line-height: 1.2; text-align: center;">
         <span class="footer-credit-heading" style="display: block; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px; font-family: 'Open Sans', sans-serif;">Developed by::</span>
         <span class="footer-credit-name" style="font-size: 20px; font-weight: 800; text-transform: uppercase; font-family: 'Open Sans', sans-serif;">Farhan Akbar</span>
