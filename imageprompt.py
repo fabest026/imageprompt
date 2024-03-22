@@ -298,23 +298,13 @@ footer_css = """
 # HTML for the footer - replace your credit information here
 footer_html = f"""
 <div class="footer">
-    <p class="footer-credit" style="font-size: 12px; font-style: italic; color: gray; margin-bottom: 0px; opacity: 0.7; line-height: 1.2; text-align: center;">
-        <span class="footer-credit-heading" style="display: block; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px; font-family: 'Open Sans', sans-serif;">Developed by::</span>
-        <span class="footer-credit-name" style="font-size: 20px; font-weight: 800; text-transform: uppercase; font-family: 'Open Sans', sans-serif;">Farhan Akbar</span>
+    <p style="font-size: 12px; font-style: italic; color: gray; margin-bottom: 0px; opacity: 0.7; line-height: 1.2; text-align: center;">
+        <span style="display: block; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px; font-family: 'Open Sans', sans-serif;">Developed by::</span>
+        <span style="font-size: 20px; font-weight: 800; text-transform: uppercase; font-family: 'Open Sans', sans-serif;">Farhan Akbar</span>
     </p>
-    </p>
-    <div class="footer-credit-links" style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
-        <a href="https://www.linkedin.com/in/farhan-akbar-ai/" target="_blank" rel="noopener noreferrer" class="footer-credit-link">
-            <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" style="margin-bottom: 0px;" />
-        </a>
-        <a href="https://api.whatsapp.com/send?phone=923114202358" target="_blank" rel="noopener noreferrer" class="footer-credit-link">
-            <img src="https://img.shields.io/badge/WhatsApp-Chat%20Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" style="margin-bottom: 0px;" />
-        </a>
-        <a href="mailto:rasolehri@gmail.com" target="_blank" rel="noopener noreferrer" class="footer-credit-link">
-            <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=email" alt="Email" style="margin-bottom: 0px;" />
-        </a>
-    </div>
-
+    <a href="https://www.linkedin.com/in/farhan-akbar-ai/"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
+    <a href="https://api.whatsapp.com/send?phone=923114202358"><img src="https://img.shields.io/badge/WhatsApp-Chat%20Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+    <a href="mailto:rasolehri@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=email" alt="Email"/></a>
 </div>
 """
 
