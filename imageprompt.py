@@ -236,6 +236,29 @@ with st.sidebar:
             elif isinstance(st.session_state[key], dict) and st.session_state[key] != {}:
                 st.session_state[key] = {}
 
+ # Add the code of streamlit running icons and deploy is not working
+      
+# Streamlit Running Icons
+
+st.markdown(
+    """
+    <style>
+    .stLoadingIndicator {
+        background-image: url('https://raw.githubusercontent.com/streamlit/branding/master/st_logo_loading/st_logo_loading_spinning.svg');
+        background-repeat: no-repeat;
+        background-size: 30px;
+    }
+    .stLoadingIndicator.on-hover {
+        background-image: url('https://raw.githubusercontent.com/streamlit/branding/master/st_logo_loading/st_logo_loading_hover.svg');
+    }
+    .stLoadingIndicator.on-click {
+        background-image: url('https://raw.githubusercontent.com/streamlit/branding/master/st_logo_loading/st_logo_loading_click.svg');
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Adding the HTML footer
 # Profile footer HTML for sidebar
 
